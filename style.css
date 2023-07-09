@@ -9,4 +9,30 @@
 body {
   min-height: 100vh;
   font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  background-color: #1f2937;
+}
+
+.header__logo {
+  color: #f9faf8;
+  font-size: 1.5rem;
+  margin-right: auto;
+}
+
+.header__links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+a {
+  color: #e5e7eb;
+  text-decoration: none;
 }
