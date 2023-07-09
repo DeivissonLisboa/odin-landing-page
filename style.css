@@ -16,7 +16,7 @@ body {
 .header {
   display: flex;
   align-items: center;
-  padding: 1rem 10vw;
+  padding: 2rem 10vw;
   background-color: #1f2937;
 }
 
@@ -110,6 +110,8 @@ main {
 
 .card__text {
   color: #1f2937;
+  font-size: 1.125rem;
+  margin-top: 0.5rem;
 }
 
 .quote {
